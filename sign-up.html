@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <h2>회원가입</h2>
+        <h4>1. 기본 정보</h4>
+        <form action="write.php" method="post">
+                <div>
+                    <input type="text" name="email" id="email" 
+                    placeholder="이메일(ID)"/>
+                </div><br>
+                <div>
+                    <input type="text" name="password" id="password" 
+                    placeholder="비밀번호"/>
+                </div><br>
+                <div>
+                    <input type="text" name="password_confirm" id="password_confirm" 
+                    placeholder="비밀번호 확인"/>
+                </div><br>
+                <div>
+                    <input type="text" name="name" id="name" 
+                    placeholder="이름"/>
+                </div><br>
+                <div>
+                    <input type="text" name="phone" id="phone" 
+                    placeholder="휴대전화"/>
+                </div>
+
+            <h4>2. 추가 정보</h4>
+                <div>
+                    <input type="text" name="birth" id="birth" 
+                    placeholder="생년월일, 예) 19800101"/>
+                </div><br>
+
+                <div>
+                    <label for="name">성별</label>
+                    <input type="radio" name="sex" value="1">남성
+                    <input type="radio" name="sex" value="2">여성
+                </div><br>
+
+                <div>
+                    <label for="name">소속</label>
+                    <input type="radio" name="department" value="1">학생
+                    <input type="radio" name="department" value="2">일반
+                    <input type="radio" name="department" value="3">기관
+                    <input type="radio" name="department" value="4">강사
+                    <input type="radio" name="department" value="5">관리자
+                </div><br>
+
+                <div>
+                    <label for="name">관심분야 (중복선택 가능)</label>
+                </div>
+
+                <input type="checkbox" name="interest" value="1">영어 스피킹
+                <input type="checkbox" name="interest" value="2">영어 작문
+                <input type="checkbox" name="interest" value="3">영어 듣기
+                <input type="checkbox" name="interest" value="4">시험 대비
+                <input type="checkbox" name="interest" value="5">중국어
+                <input type="checkbox" name="interest" value="6">일본어
+                <input type="checkbox" name="interest" value="7">기타
+
+                <div class="button">
+                    <button type="submit">제출</button>
+                </div>
+            <!--
+                <div>
+                    <label for="name">이름:</label>
+                    <input type="text" name="name" id="name" />
+                </div>
+                <div>
+                    <label for="age">나이:</label>
+                    <input type="text" name="age" id="age" />
+                </div>
+                <div>
+                    <label for="gender">성별:</label>
+                    <input type="text" name="gender" id="gender" />
+                </div>
+                <div>
+                    <label for="address">주소:</label>
+                    <input type="text" name="address" id="address" />
+                </div>
+                <div>
+                    <label for="character">성격:</label>
+                    <input type="text" name="character" id="character" />
+                </div>
+                <div>
+                    <label for="score">성적:</label>
+                    <input type="text" name="score" id="score" />
+                </div>
+                
+
+                <div class="button">
+                    <button type="submit">제출</button>
+                </div>
+            -->
+        </form>
+
+    </body>
+
+</html>
